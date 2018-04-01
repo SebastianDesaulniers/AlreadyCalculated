@@ -161,7 +161,7 @@ public class Number
 		return this;
 	}
 
-	public double evalDoubleOne(double num1) throws Exception
+	private double evalDoubleOne(double num1) throws Exception
 	{
 		switch (getExpr())
 		{

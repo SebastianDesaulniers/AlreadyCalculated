@@ -147,7 +147,7 @@ public class Main
 		System.setOut(new PrintStream(new NullOutputStream()));
 		System.setErr(new PrintStream(new NullOutputStream()));
 
-		webcam = Webcam.getDefault();
+		webcam = Webcam.getWebcams().get(1);
 		webcam.open();
 
 		// GRAPHICS INIT:
